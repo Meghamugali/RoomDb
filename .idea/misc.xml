@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/mmug0001/RoomDb/app/src/main/res/drawable/ic_edit_black_24dp.xml" value="0.157" />
         <entry key="..\:/Users/mmug0001/RoomDb/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/mmug0001/RoomDb/app/src/main/res/layout/activity_recycler.xml" value="0.1796875" />
+        <entry key="..\:/Users/mmug0001/RoomDb/app/src/main/res/layout/person_item.xml" value="0.1" />
       </map>
     </option>
   </component>
