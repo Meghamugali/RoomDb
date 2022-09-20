@@ -2,8 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.roomdb">
-    <uses-permission android:name="android.permission.READ_SMS"/>
 
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
 
     <application
         android:allowBackup="true"
@@ -16,8 +17,12 @@
         android:theme="@style/Theme.RoomDb"
         tools:targetApi="31">
         <activity
-            android:name=".ContentActivity"
+            android:name=".MainActivity"
             android:exported="true">
+
+        </activity>
+
+        <activity android:name=".Recycler" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,14 +30,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".PhoneActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
+        <activity
+            android:name=".ContentActivity"
+            android:exported="true">
+
+        </activity>
+
     </application>
 
 </manifest>
